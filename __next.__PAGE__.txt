@@ -1,0 +1,5 @@
+1:"$Sreact.fragment"
+2:I[999674,["/SnowLumaDocs/_next/static/chunks/0y1avnhiq.-jv.js","/SnowLumaDocs/_next/static/chunks/0o3cxcu1r4eqr.js"],"OutletBoundary"]
+3:"$Sreact.suspense"
+0:{"rsc":["$","$1","c",{"children":[[["$","meta",null,{"httpEquiv":"refresh","content":"0; url=/zh/"}],["$","script",null,{"dangerouslySetInnerHTML":{"__html":"window.location.replace(\"/zh/\");"}}],["$","a",null,{"href":"/zh/","className":"block p-8","children":["Redirecting to ","/zh/","…"]}]],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"ebsYQkxYb9MY0zcTIaHCW"}
+4:null
