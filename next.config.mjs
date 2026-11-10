@@ -7,6 +7,10 @@ const config = {
   // Static export so the site can be hosted on GitHub Pages.
   output: 'export',
   reactStrictMode: true,
+  
+  basePath: '/SnowLumaDocs',
+  assetPrefix: '/SnowLumaDocs/',
+
   // Static export cannot run the Next image optimizer (it requires a
   // running server). All images go through unoptimized.
   images: { unoptimized: true },
