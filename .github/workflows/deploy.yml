@@ -5,7 +5,6 @@ on:
     branches:
       - main
 
-# 核心修改1：赋予 Actions 写入权限，才能推送代码
 permissions:
   contents: write
 
@@ -40,11 +39,7 @@ jobs:
           git init
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          
-          # 核心修改2：使用 gh-pages 分支（不要用 main，否则会覆盖源码）
           git checkout --orphan gh-pages
           git add -A
           git commit -m "Deploy documentation"
-          
-          # 核心修改3：推送到你自己的当前仓库，使用官方内置 Token
           git push --force "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" gh-pages
